@@ -288,25 +288,25 @@ const BentoGrid = () => {
                     title="E-Commerce Dashboard"
                     desc="A comprehensive analytics dashboard for online retailers. Features real-time data visualization, inventory management, and order tracking."
                     tags={["Next.js", "TypeScript", "Tremor", "Supabase"]}
-                    image="/images/project1.jpg"
+                    image={`${import.meta.env.BASE_URL}images/project1.jpg`}
                 />
                 <SpotlightCard
                     title="AI Chat Interface"
                     desc="Modern chat UI with streaming responses, markdown support, and history management."
                     tags={["React", "Tailwind", "OpenAI API"]}
-                    image="/images/project2.jpg"
+                    image={`${import.meta.env.BASE_URL}images/project2.jpg`}
                 />
                 <SpotlightCard
                     title="Task Management App"
                     desc="Collaborative task manager with drag-and-drop kanban boards."
                     tags={["Vue", "Firebase", "Pinia"]}
-                    image="/images/project3.jpg"
+                    image={`${import.meta.env.BASE_URL}images/project3.jpg`}
                 />
                 <SpotlightCard
                     title="Developer Portfolio"
                     desc="The website you are looking at right now. Built with performance and accessibility in mind."
                     tags={["React", "Framer Motion", "Vite"]}
-                    image="/images/project4.jpg"
+                    image={`${import.meta.env.BASE_URL}images/project4.jpg`}
                 />
             </div>
         </section>
